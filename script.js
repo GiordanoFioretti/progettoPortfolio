@@ -7,7 +7,7 @@ togglebtn.addEventListener("click",function(){
     nav.classList.toggle("open");
 })
 
-let typed=new Typed(".input", {
+let typed=new typed(".input", {
     strings:["Frontend Developer", "Backend Developer", "Web Developer"],
     typedSpeed:50,
     backSpeed:40,
